@@ -1,0 +1,251 @@
+@font-face{
+    font-family: 'Porsche';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Porsche\ Regular.ttf')
+}
+@font-face{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Inconsolata.ttf')
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    /*overflow: hidden;*/
+}
+.button {
+    font-family: 'Inconsolata';
+    position: absolute;
+    bottom: 5px; /* Ajusta la distancia desde la parte inferior */
+    left: 150px;  /* Ajusta la distancia desde la izquierda */
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border:solid white 3px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 24px;
+}
+.nombre {
+    font-family: 'Inconsolata';
+    color: rgba(255, 255, 255, 0.727);
+    position: absolute;
+    bottom: 70px; 
+    left: 150px;  
+    color: white; 
+    text-align: left;
+    font-size: 40px; 
+}
+.boton{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.801);
+}
+.modelos{
+    text-align: center;
+    color: black;
+    top: 150px;
+    margin: auto;
+    font-size: 40px;
+    left: 46%;
+    position: absolute;
+    font-family: 'Inconsolata';
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+.titulo{
+    background-color: black;
+    font-family: 'Porsche';
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.727);
+    height: 75px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin:0;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    outline: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 20px;
+    color: black;
+    top: 300px;
+    margin: auto;
+    font-size: 30px;
+    left: 23%;
+    position: absolute;
+    font-family: 'Inconsolata';
+}
+
+.porsche911{
+    background-image: url('imagenes/911.jpg');
+    background-size: cover;
+    background-position: -500px;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    height:70vh;
+    width: 45vh;
+}
+.p911{
+    position: absolute;
+    font-family: 'Porsche';
+    top: 10px;
+    left: 50px;
+}
+.b911{
+    position: absolute;
+    font-family:'Inconsolata';
+    top: 650px;
+    left: 50px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.86);
+    border: 1px solid black;
+}
+.t911{
+    position: absolute;
+    font-family: 'Inconsolata';
+    top: 510px;
+    left: 50px;
+    font-size: 27px;    
+    color: rgba(255, 255, 255, 0.934);
+}
+.porsche718{
+    background-image: url('imagenes/718.jpg');
+    background-size: 270%;
+    background-position: -400px;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    height:70vh;
+    width: 45vh;
+}
+.p718{
+    position: absolute;
+    font-family: 'Porsche';
+    top: 10px;
+    left: 570px;
+}
+.b718{
+    position: absolute;
+    font-family:'Inconsolata';
+    top: 650px;
+    left: 570px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.86);
+    border: 1px solid black;
+}
+.t718{
+    position: absolute;
+    font-family: 'Inconsolata';
+    top: 510px;
+    left: 570px;
+    font-size: 27px;    
+    color: rgba(255, 255, 255, 0.934);
+}
+
+
+.porschepan{
+    background-image: url('imagenes/panamera.webp');
+    background-size: 230%;
+    background-position: -450px;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    height:70vh;
+    width: 45vh;
+}
+.ppan{
+    position: absolute;
+    font-family: 'Porsche';
+    top: 800px;
+    left: 50px;
+    font-size: 30px;
+}
+.bpan{
+    position: absolute;
+    font-family:'Inconsolata';
+    top: 1420px;
+    left: 50px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.86);
+    border: 1px solid black;
+}
+.tpan{
+    position: absolute;
+    font-family: 'Inconsolata';
+    top: 1300px;
+    left: 50px;
+    font-size: 27px;    
+    color: rgba(255, 255, 255, 0.934);
+}
+.porschetaycan{
+    background-image: url('imagenes/taycan.jpg');
+    background-size: cover;
+    background-position: -350px;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 20px;
+    border-radius: 30px;
+    height:70vh;
+    width: 45vh;
+}
+.ptaycan{
+    position: absolute;
+    font-family: 'Porsche';
+    top: 800px;
+    left: 570px;
+    font-size: 30px;
+}
+.btaycan{
+    position: absolute;
+    font-family:'Inconsolata';
+    top: 1420px;
+    left: 570px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.86);
+    border: 1px solid black;
+}
+.ttaycan{
+    position: absolute;
+    font-family: 'Inconsolata';
+    top: 1300px;
+    left: 570px;
+    font-size: 27px;    
+    color: rgba(255, 255, 255, 0.934);
+}
